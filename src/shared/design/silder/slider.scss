@@ -3,6 +3,7 @@
     height: auto;
     background: #d303fc;
 }
+
 .backgroundImage {
     height: 100%;
     background-repeat: no-repeat;
@@ -54,4 +55,26 @@
     left: -35px;
     top: 7.5px;
     color: #fff;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .name-title {
+        width: auto;
+        font-size: 60px;
+    }
+
+
+}
+
+@media only screen and (min-width: 650px) {
+    .button-div {
+        margin: 2px 49px;
+    }
+
+    .short-description-button {
+        background-color: purple !important;
+        font-size: 0.6rem !important;
+        width: 111px !important;
+    }
 }

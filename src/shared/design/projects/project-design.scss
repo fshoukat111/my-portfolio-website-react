@@ -38,4 +38,8 @@
     .project-main-section {
         max-width: auto; /* Adjust the maximum width for smaller screens */
     }
+    .project-image {
+        flex-shrink: 2;
+
+    }
 }

@@ -7,7 +7,7 @@ import projectThreeImage from 'assets/projectThree.jpg'
 const ProjectDesign = () => {
     return (
         <div className='project-main-section'>
-            <h2 className='project-heading'>Projects</h2>
+            <h2 className='project-heading'>Portfolio</h2>
             <div className="project-chlid-section">
                 {/* <div> */}
                     <img src={projectOneImage} alt="" className="project-image" />
