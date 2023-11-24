@@ -1,0 +1,57 @@
+.slideshow {
+    width: 100%;
+    height: auto;
+    background: #d303fc;
+}
+.backgroundImage {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.short-description {
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.skill-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffff;
+}
+
+.name-title {
+    width: 557px;
+    font-size: 85px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+.button-div {
+    margin: 2px 100px;
+}
+
+.short-description-button {
+    background-color: purple !important;
+    width: 130px !important;
+    height: 40px !important;
+    padding: 19px 20px 19px 20px !important;
+    border-radius: 15px !important;
+    margin: 5px !important;
+}
+
+.arrow-icon {
+    position: relative;
+    left: -35px;
+    top: 7.5px;
+    color: #fff;
+}

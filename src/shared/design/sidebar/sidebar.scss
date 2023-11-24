@@ -1,0 +1,36 @@
+.main-sidebar {
+    width: 300px;
+    background: #fff;
+    border: 10px solid red;
+    height: 100vh;
+}
+
+.img-section {
+    padding: 0.01em 16px;
+    z-index: 3;
+}
+
+.profile-image {
+    width: 45%;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.heading-h4 {
+    font-size: 20px;
+}
+
+.navbar-section {
+    color: #0000 !important;
+}
+
+.nav-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}

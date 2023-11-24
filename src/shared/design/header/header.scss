@@ -1,0 +1,24 @@
+.header {
+    height: auto;
+    display: flex;
+    padding: 50px 100px 0 100px;
+    gap: 687px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+        display: flex;
+        padding: 50px 100px 0 100px;
+        gap: 50px;
+    }
+  }

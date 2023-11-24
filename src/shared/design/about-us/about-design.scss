@@ -1,0 +1,145 @@
+.about-me-section {
+    background-color: #32223D;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    margin-top: -8px;
+    max-width: 100%;
+}
+
+.about-me {
+    width: 100%;
+    gap: 29px;
+    display: flex;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+}
+
+.profile-section {
+    width: 50%;
+    display: contents;
+}
+
+.profile-img {
+    border-radius: 265px;
+    width: 390px;
+}
+
+.about-me-title {
+    width: 100px;
+    height: 23px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A96CD7;
+}
+
+.about-me-short-decription {
+    padding-top: 20px;
+    width: 631px;
+    height: 79px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+}
+
+.about-me-decription {
+    width: 631px;
+    height: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: #fff;
+}
+
+.about-me-deatail-data {
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.about-me-heading {
+    font-size: 16px;
+    color: #fff;
+}
+
+.about-me-profile-title {
+    width: 100px;
+    height: 23px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A96CD7;
+}
+
+.about-me-deatail-div {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-me {
+        // width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .profile-section {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .about-me-title {
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .about-me-short-decription {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+    }
+
+    .about-me-decription {
+        text-align: center;
+        width: auto;
+        font-size: 17px;
+    }
+
+    .about-me-heading {
+        font-size: 12px;
+    }
+
+    .about-me-profile-title {
+        width: 87px;
+        height: auto;
+        font-family: Montserrat;
+        font-size: 12px;
+        text-align: center;
+        color: #A96CD7;
+    }
+
+    .about-me-deatail-div {
+        display: flex;
+        width: 75%;
+        margin: 0 95px 3px 95px;
+    }
+}
