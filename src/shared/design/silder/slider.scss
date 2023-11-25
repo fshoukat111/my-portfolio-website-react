@@ -38,7 +38,9 @@
 }
 
 .button-div {
-    margin: 2px 100px;
+    justify-content: center;
+    display: flex;
+    margin: 0 0;
 }
 
 .short-description-button {
@@ -53,7 +55,7 @@
 .arrow-icon {
     position: relative;
     left: -35px;
-    top: 7.5px;
+    top: 12px;
     color: #fff;
 }
 
@@ -64,12 +66,17 @@
         font-size: 60px;
     }
 
+    .arrow-icon {
+        top: 12px;
+    }
 
 }
 
 @media only screen and (min-width: 650px) {
     .button-div {
-        margin: 2px 49px;
+        justify-content: center;
+        display: flex;
+        margin: 0 0;
     }
 
     .short-description-button {
