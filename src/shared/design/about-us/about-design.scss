@@ -143,3 +143,29 @@
         margin: 0 95px 3px 95px;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .about-me-deatail-div {
+        display: flex;
+        width: 100%;
+        margin: 0 0 5px 10px;
+        flex-direction: column;
+    }
+
+    .about-me-heading {
+        font-size: 15px;
+    }
+    .about-me-profile-title {
+        width: 102px;
+        height: auto;
+        font-family: Montserrat;
+        font-size: 12px;
+         text-align: start; 
+        color: #A96CD7;
+    }
+    .about-me-deatail-data {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    }
+}

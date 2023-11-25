@@ -2,7 +2,7 @@
     height: auto;
     display: flex;
     padding: 50px 100px 0 100px;
-    gap: 687px;
+    // gap: 687px;
 }
 
 .navbar {
@@ -13,12 +13,48 @@
     cursor: pointer;
 }
 
+.hamburger-menu {
+    display: none;
+}
 
 @media only screen and (max-width: 1024px) {
     .header {
         height: auto;
         display: flex;
-        padding: 50px 100px 0 100px;
-        gap: 50px;
+        padding: 20px 0px 0 21px;
+        gap: 0px;
     }
-  }
+
+    .navbar {
+        display: flex;
+        justify-content: end;
+        width: 91%;
+        color: white;
+        cursor: pointer;
+    }
+
+}
+
+/* Media query for screens 650px or less */
+@media only screen and (max-width: 650px) {
+    .header {
+        height: auto;
+        display: flex;
+        padding: 20px 0px 0 21px;
+        gap: 0px;
+    }
+
+    /* Regular Navbar styles - hide it for screens 650px or less */
+    .navbar {
+        display: none;
+    }
+
+    /* Hamburger menu styles - show it for screens 650px or less */
+    .hamburger-menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 91%;
+        color: white;
+        cursor: pointer;
+    }
+}

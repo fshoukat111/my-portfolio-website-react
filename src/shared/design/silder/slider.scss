@@ -3,6 +3,7 @@
     height: auto;
     background: #d303fc;
 }
+
 .backgroundImage {
     height: 100%;
     background-repeat: no-repeat;
@@ -37,7 +38,9 @@
 }
 
 .button-div {
-    margin: 2px 100px;
+    justify-content: center;
+    display: flex;
+    margin: 0 0;
 }
 
 .short-description-button {
@@ -52,6 +55,33 @@
 .arrow-icon {
     position: relative;
     left: -35px;
-    top: 7.5px;
+    top: 12px;
     color: #fff;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .name-title {
+        width: auto;
+        font-size: 60px;
+    }
+
+    .arrow-icon {
+        top: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 650px) {
+    .button-div {
+        justify-content: center;
+        display: flex;
+        margin: 0 0;
+    }
+
+    .short-description-button {
+        background-color: purple !important;
+        font-size: 0.6rem !important;
+        width: 111px !important;
+    }
 }
