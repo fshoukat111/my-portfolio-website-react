@@ -54,7 +54,28 @@
         display: flex;
         justify-content: flex-end;
         width: 91%;
-        color: white;
+        right: 100px;
+        color: #d1d6de;
+        margin-right: 10px;
         cursor: pointer;
     }
+
+    .sidebar{
+        background: #794D9A !important;
+        height: 100%;
+        cursor: pointer;
+        // margin: 10px;
+    }
+
+    .nav-item{
+        color: #fff;
+        margin: 15px 10px 10px 10px !important;
+    }
+
+    .close-drawer{
+        position: absolute;
+        right: 0;
+        color: #fff;
+    }
+
 }
